@@ -1,0 +1,52 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+../env/
+.venv/
+
+# Environment Variables
+.env
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# SQLAlchemy migration files (if using Alembic)
+migrations/
+
+# Logs
+*.log
+
+# Static and media files (if applicable)
+static/
+media/
+
+# Test result logs
+test_result.log
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# MacOS system files
+.DS_Store
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Local SQLite Database (if used in development)
+*.sqlite3
+
+# Docker files (if applicable)
+docker-compose.override.yml
